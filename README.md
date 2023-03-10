@@ -17,7 +17,9 @@ npm run dev
 ## Examples
 To see how dynamic the system is, I left some examples internally mocked.
 
-
+`
+src/view/Onboarding/Onboarding.tsx
+`
 ```javascript
 import { client } from '../../mocks/client1';
 // import { client } from '../../mocks/client2';
