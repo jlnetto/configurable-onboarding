@@ -5,12 +5,12 @@ import { Steps } from '../../types/core';
 import { useStep } from '../../core/StepContext';
 
 
-import { client1 } from '../../mocks/client1';
-import { client2 } from '../../mocks/client2';
-import { client3 } from '../../mocks/client3';
+import { client } from '../../mocks/client1';
+// import { client } from '../../mocks/client2';
+// import { client } from '../../mocks/client3';
 
-const steps: Steps = client2.steps;
-const headerConfig = client2.headerConfig;
+const steps: Steps = client.steps;
+const headerConfig = client.headerConfig;
 
 
 const STEP_OFFSET = 1;

@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   width: 300px;
   font-family: 'Arial';
   font-weight: 400;
-  margin: 40px 0;
+  margin-top: 40px;
 
   @media (min-width: 768px) {
     width: 335px;

@@ -3,7 +3,7 @@ import CarLogo from '../assets/car.svg';
 import StatsLogo from '../assets/stats.svg';
 import OrgLogo from '../assets/org.svg';
 
-export const client1 = {
+export const client = {
   headerConfig: {
     primaryColor: '#ffffff',
     secondaryColor: '#b9bcc0',

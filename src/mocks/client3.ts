@@ -3,12 +3,12 @@ import CarLogo from '../assets/car.svg';
 import StatsLogo from '../assets/stats.svg';
 import OrgLogo from '../assets/org.svg';
 
-export const client3 = {
+export const client = {
   headerConfig: {
-    primaryColor: '#ffffff',
-    secondaryColor: '#b9bcc0',
-    stepLineColor: '#595959',
-    completedStepLineColor: '#0072CE',
+    primaryColor: '#87953d',
+    secondaryColor: '#007ab5',
+    stepLineColor: '#ffffff',
+    completedStepLineColor: '#87953d',
   },
   steps: [
     [
@@ -17,18 +17,8 @@ export const client3 = {
         data: {
           text: 'Going electric starts with understanding your needs',
           styles: {
-            color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
-          },
-        },
-      },
-      {
-        type: ComponentTypes.DESCRIPTION,
-        data: {
-          text: 'We need to understand your requirements so we can recommend the appropriate electric vehicle, charger and identify incentives.',
-          styles: {
-            color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            color: '#87953d',
+            fontFamily: 'system-ui',
           },
         },
       },
@@ -40,24 +30,24 @@ export const client3 = {
               src: OrgLogo,
               description: 'Tell us about your organization',
               styles: {
-                color: '#333333',
-                fontFamily: 'Roboto, sans-serif',
+                color: '#87953d',
+                fontFamily: 'system-ui',
               },
             },
             {
               src: CarLogo,
               description: 'Tell us about your vehicles',
               styles: {
-                color: '#333333',
-                fontFamily: 'Roboto, sans-serif',
+                color: '#87953d',
+                fontFamily: 'system-ui',
               },
             },
             {
               src: StatsLogo,
               description: 'See how much you can save',
               styles: {
-                color: '#333333',
-                fontFamily: 'Roboto, sans-serif',
+                color: '#87953d',
+                fontFamily: 'system-ui',
               },
             },
           ],
@@ -69,30 +59,54 @@ export const client3 = {
           text: 'Create Your First Vehicle Set',
           styles: {
             color: '#ffffff',
-            backgroundColor: '#0072CE',
-            fontFamily: 'Roboto, sans-serif',
-          },
-        },
-      },
-    ],
-    [
-      {
-        type: ComponentTypes.TITLE,
-        data: {
-          text: 'General Information',
-          styles: {
-            color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            backgroundColor: '#87953d',
+            fontFamily: 'system-ui',
           },
         },
       },
       {
         type: ComponentTypes.DESCRIPTION,
         data: {
-          text: 'We use this information to calculate fuel costs and applicable incentives',
+          text: 'We need to understand your requirements so we can recommend the appropriate electric vehicle, charger and identify incentives.',
           styles: {
             color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'system-ui',
+          },
+        },
+      },
+    ],
+    [
+      {
+        type: ComponentTypes.BUTTON_GROUP,
+        data: {
+          buttonGroup: [
+            {
+              text: 'Back',
+              styles: {
+                color: '#FFFFFF',
+                fontFamily: 'system-ui',
+                backgroundColor: '#87953d',
+                border: '1px solid #87953d',
+              },
+            },
+            {
+              text: 'Next',
+              styles: {
+                color: '#ffffff',
+                backgroundColor: '#007ab5',
+                fontFamily: 'system-ui',
+              },
+            },
+          ],
+        },
+      },
+      {
+        type: ComponentTypes.TITLE,
+        data: {
+          text: 'General Information',
+          styles: {
+            color: '#87953d',
+            fontFamily: 'system-ui',
           },
         },
       },
@@ -105,16 +119,28 @@ export const client3 = {
         },
       },
       {
+        type: ComponentTypes.DESCRIPTION,
+        data: {
+          text: 'We use this information to calculate fuel costs and applicable incentives',
+          styles: {
+            color: '#404040',
+            fontFamily: 'system-ui',
+          },
+        },
+      },
+    ],
+    [
+      {
         type: ComponentTypes.BUTTON_GROUP,
         data: {
           buttonGroup: [
             {
               text: 'Back',
               styles: {
-                color: '#172536',
-                fontFamily: 'Roboto, sans-serif',
-                backgroundColor: '#FFFFFF',
-                border: '1px solid #0072CE',
+                color: '#ffffff',
+                fontFamily: 'system-ui',
+                backgroundColor: '#87953d',
+                border: '1px solid #87953d',
               },
             },
             {
@@ -122,21 +148,19 @@ export const client3 = {
               styles: {
                 color: '#ffffff',
                 backgroundColor: '#0072CE',
-                fontFamily: 'Roboto, sans-serif',
+                fontFamily: 'system-ui',
               },
             },
           ],
         },
       },
-    ],
-    [
       {
         type: ComponentTypes.TITLE,
         data: {
           text: 'General Information',
           styles: {
-            color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            color: '#87953d',
+            fontFamily: 'system-ui',
           },
         },
       },
@@ -146,7 +170,7 @@ export const client3 = {
           text: 'We use this information to calculate fuel costs and applicable incentives',
           styles: {
             color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'system-ui',
           },
         },
       },
@@ -182,32 +206,8 @@ export const client3 = {
             },
           ],
           styles: {
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'system-ui',
           },
-        },
-      },
-      {
-        type: ComponentTypes.BUTTON_GROUP,
-        data: {
-          buttonGroup: [
-            {
-              text: 'Back',
-              styles: {
-                color: '#172536',
-                fontFamily: 'Roboto, sans-serif',
-                backgroundColor: '#FFFFFF',
-                border: '1px solid #0072CE',
-              },
-            },
-            {
-              text: 'Next',
-              styles: {
-                color: '#ffffff',
-                backgroundColor: '#0072CE',
-                fontFamily: 'Roboto, sans-serif',
-              },
-            },
-          ],
         },
       },
     ],
@@ -218,7 +218,7 @@ export const client3 = {
           text: 'Thank you for all information',
           styles: {
             color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'system-ui',
           },
         },
       },
@@ -228,8 +228,18 @@ export const client3 = {
           text: 'You will be informed soon about the process',
           styles: {
             color: '#404040',
-            fontFamily: 'Roboto, sans-serif',
+            fontFamily: 'system-ui',
           },
+        },
+      },
+      {
+        type: ComponentTypes.INFO,
+        data: {
+          images: [
+            {
+              src: CarLogo,
+            },
+          ],
         },
       },
       {
@@ -238,11 +248,11 @@ export const client3 = {
           text: 'Back to Home',
           styles: {
             color: '#ffffff',
-            backgroundColor: '#79b31d',
-            fontFamily: 'Roboto, sans-serif',
+            backgroundColor: '#87953d',
+            fontFamily: 'system-ui',
           },
         },
       },
-    ]
+    ],
   ],
 };

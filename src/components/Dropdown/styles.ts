@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin: 40px 0;
   width: 300px;
   font-family: 'Roboto, sans-serif';
+  position: relative;
 
   @media (min-width: 768px) {
     width: 335px;
@@ -45,11 +46,12 @@ export const DropdownItems = styled.div`
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   position: absolute;
-  top: 572px;
+  top: 100%;
   width: inherit;
   max-height: 406px;
   overflow-y: auto;
   overflow-x: hidden;
+  margin-top: 5px;
 `;
 
 export const Item = styled.div<{ customBackground?: string; }>`
